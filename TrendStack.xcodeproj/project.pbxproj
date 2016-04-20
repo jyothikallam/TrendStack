@@ -13,10 +13,10 @@
 		25E3B8131C835AB4002EF2D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E3B8111C835AB4002EF2D6 /* Main.storyboard */; };
 		25E3B8151C835AB4002EF2D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E3B8141C835AB4002EF2D6 /* Assets.xcassets */; };
 		25E3B8181C835AB4002EF2D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E3B8161C835AB4002EF2D6 /* LaunchScreen.storyboard */; };
-		25E3B8201C838873002EF2D6 /* TwitterTopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3B81F1C838873002EF2D6 /* TwitterTopicsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		25E3B8221C838906002EF2D6 /* TwitterTopicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3B8211C838906002EF2D6 /* TwitterTopicDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		25E3B8241C838935002EF2D6 /* TwitterPlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3B8231C838935002EF2D6 /* TwitterPlaceDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		25F7C58E1C839CD4001E99D7 /* TwitterAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7C58D1C839CD4001E99D7 /* TwitterAuthHelper.m */; settings = {ASSET_TAGS = (); }; };
+		25E3B8201C838873002EF2D6 /* TwitterTopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3B81F1C838873002EF2D6 /* TwitterTopicsViewController.swift */; };
+		25E3B8221C838906002EF2D6 /* TwitterTopicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3B8211C838906002EF2D6 /* TwitterTopicDetailViewController.swift */; };
+		25E3B8241C838935002EF2D6 /* TwitterPlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3B8231C838935002EF2D6 /* TwitterPlaceDetailViewController.swift */; };
+		25F7C58E1C839CD4001E99D7 /* TwitterAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7C58D1C839CD4001E99D7 /* TwitterAuthHelper.m */; };
 		25F7C5901C839D3B001E99D7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F7C58F1C839D3B001E99D7 /* Social.framework */; };
 		25F7C5921C839D52001E99D7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F7C5911C839D52001E99D7 /* Accounts.framework */; };
 		C1198C4FEDF0D961A72DC738 /* Pods_TrendStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C00BD02B65FB82FB65D0662 /* Pods_TrendStack.framework */; };
@@ -81,11 +81,11 @@
 			children = (
 				25E3B80B1C835AB4002EF2D6 /* AppDelegate.swift */,
 				25E3B80D1C835AB4002EF2D6 /* LaunchViewController.swift */,
-				25E3B80F1C835AB4002EF2D6 /* TwitterPlacesViewController.swift */,
 				25E3B8111C835AB4002EF2D6 /* Main.storyboard */,
 				25E3B8211C838906002EF2D6 /* TwitterTopicDetailViewController.swift */,
 				25E3B8231C838935002EF2D6 /* TwitterPlaceDetailViewController.swift */,
 				25E3B81F1C838873002EF2D6 /* TwitterTopicsViewController.swift */,
+				25E3B80F1C835AB4002EF2D6 /* TwitterPlacesViewController.swift */,
 				25F7C58C1C839CD4001E99D7 /* TwitterAuthHelper.h */,
 				25F7C58D1C839CD4001E99D7 /* TwitterAuthHelper.m */,
 				25E3B8141C835AB4002EF2D6 /* Assets.xcassets */,

@@ -8,26 +8,18 @@
 
 import UIKit
 
-class TwitterTopicDetailViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class TwitterTopicDetailViewController: UIViewController {
+    
+    var url:String   = "https://twitter.com"
+    var name:String  = String()
+    var query:String = String()
 
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        let webUrl = NSURL(string: url)
+        webView.loadRequest(NSURLRequest(URL: webUrl!))
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
-    }
-    
-    
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        return UITableViewCell()
-    }
-    
 }
